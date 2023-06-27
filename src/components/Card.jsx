@@ -10,7 +10,7 @@ let Card = (props) => {
       <h2>{props.species}</h2>
       <h2>{props.gender}</h2>
       <h2>{props.origin.name}</h2>
-      <img src={props.image} alt={`Foto de ${props.name}`} />
+      <img src={props.image} alt={`Foto de ${props.name}.`} />
     </div>
   );
 };
